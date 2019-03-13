@@ -1,3 +1,11 @@
+config = {
+    apiKey : config1.apiKey,
+    authDomain: config1.authDomain,
+    databaseURL: config1.databaseURL,
+    projectId: config1.projectId,
+    storageBucket: config1.storageBucket,
+    messageingSenderId: config1.messagingSenderId
+}
 var database = firebase.database();
   createItem();
 // var prices = [];

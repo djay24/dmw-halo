@@ -69,10 +69,23 @@
       </div>
 
 <!-- initalizing firebase -->
+<script src="config.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+   var config = {
+    apiKey: config1.apiKey,
+    authDomain: config1.authDomain,
+    databaseURL: config1.databaseURL,
+    projectId: config1.projectId,
+    storageBucket: config1.storageBucket,
+    messagingSenderId: config1.messagingSenderId,
+  };
+  firebase.initializeApp(config);
+</script>
+</script>
   <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <script src="js/receipt.js"></script>
+  <script src="js/receipts.js"></script>
   </body>
 </html>
